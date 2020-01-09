@@ -6,6 +6,13 @@ ul.sidebar {
   padding: 10px;
 }
 
+.well {
+  margin: 10px;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
 li.underline {
   list-style-type: none;
   text-decoration: underline;
@@ -25,9 +32,18 @@ li.underline {
 
 .right-side {
   width: 50%;
-  float: right;
+  display: flex;
+  align-items: center;
+ 
 }
 
 ul.column {
+  list-style-position: inside;
+  float: right;
+}
+
+#airplane {
+  width: 150px;
+  height: auto;
   float: right;
 }
