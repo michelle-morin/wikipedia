@@ -18,3 +18,16 @@ li.underline {
 .row {
   margin-left: 15%;
 }
+.center {
+  text-align: center;
+  width: 50%;
+}
+
+.right-side {
+  width: 50%;
+  float: right;
+}
+
+ul.column {
+  float: right;
+}
