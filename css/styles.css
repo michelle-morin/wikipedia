@@ -1,0 +1,15 @@
+.sidebar ul {
+  border: 1px solid black;
+  height: 100%; 
+  position: left; 
+  overflow: auto;
+}
+
+li.underline {
+  list-style-type: none;
+  text-decoration: underline;
+}
+
+.row { 
+  float: right !important;
+}
