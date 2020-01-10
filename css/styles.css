@@ -65,9 +65,18 @@ ul.column {
 
 #person {
   float: left;
+  padding: 10px;
 }
 
 .vertical {
-  display: flex;
-  justify-content: center;
+margin-top: 5%;
+padding: 10px;
+}
+
+#human {
+  background-color: #ddcef2;
+}
+
+.panel-heading {
+  background-color: #afa3bf;
 }
