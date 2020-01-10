@@ -42,8 +42,32 @@ ul.column {
   float: right;
 }
 
-#airplane {
+#airplane, #ship {
   width: 150px;
   height: auto;
   float: right;
+  margin: 5px;
+}
+
+#queen {
+  height: 150px;
+  width: auto;
+  float: right;
+  margin: 5px;
+}
+
+#ham {
+  height: 150px;
+  width: auto;
+  float: left;
+  margin: 5px;
+}
+
+#person {
+  float: left;
+}
+
+.vertical {
+  display: flex;
+  justify-content: center;
 }
